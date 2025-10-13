@@ -1,0 +1,61 @@
+/* Color Palette
+#a9e5bb - color 1
+#fcf6b1 - color 2
+#f7b32b - color 3
+#f72c25 - color 4
+#2d1e2f - color 5
+*/
+/* Global styles 
+------------------------------------*/
+body {
+    background: #2d1e2f;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+  background-color: #2d1e2f;
+  color: #fcf6b1;
+}
+
+/* Footer */
+footer {
+  background-color: #f72c25;
+  color: #fcf6b1;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background-color: #f7b32b;
+  color: #2d1e2f;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+  background-color: #fcf6b1;
+  color: #2d1e2f;
+}
