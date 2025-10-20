@@ -7,13 +7,22 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+
 </head>
 <body>
     <!-- // Intro -->
+     <nav>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="files/Resume.pdf" download>Download Resume (PDF)</a>
+    </nav>
     <header>
+        
         <div class="content-wrap">
-            <img src="./images/mine.jpg" alt="Milton Castellanos" class="column-narrow profile-pic">
+            <img src="./files/mine.jpg" alt="Milton Castellanos" class="column-narrow profile-pic">
             <div class="column-wide">
                 <h1>Milton Castellanos</h1>
                 <h2>Student</h2>
@@ -24,11 +33,10 @@
     
     <main> 
         <!-- // Work Experience -->
-        <section class="work-experience">
+        <section class="work-experience" id='work'>
             <div class="content-wrap">
                 
                 <h2>Work Experience</h2>
-                None yet.
                 <!-- Job Details: copy this whole block to add more jobs -->
                 <div class="column-narrow">
                     <h3>Job title: N/A</h3>
@@ -37,7 +45,7 @@
                 </div>
                 <!-- Add as many paragraphs as you need. -->
                 <div class="column-wide">
-                    <p>Job summary.: N/A</p>
+                    <p>Job summary: N/A</p>
                 </div>
                 
                 <!-- This list can be deleted if you don't want to use it. -->
@@ -47,7 +55,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -64,13 +72,13 @@
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
             
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:milton.castellanos.561@my.csun.edu">milton.castellanos.561@my.csun.edu</a>
+                <a href="mailto:milton.castellanos.561@my.csun.edu"><i class="fa-solid fa-envelope"></i> milton.castellanos.561@my.csun.edu</a>
             </div>
             
 

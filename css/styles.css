@@ -19,6 +19,7 @@ body {
     background: #2d1e2f;
     font-family: "Montserrat", sans-serif;
     margin: 0;
+    padding-top: 60px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,7 +69,7 @@ footer {
 ------------------------------------*/
 .education {
   background-color: #fcf6b1;
-  color: #2d1e2f;
+  color: #fcf6b1;
 }
 
 .content-wrap {
@@ -103,4 +104,25 @@ header h2 {
   width: 70%;
   float: left;
   min-height: 225px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2d1e2f; /* or any color you’re using */
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.education {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url('../files/forest.jpg');
+  background-size: cover;
+  background-position: center;
 }
