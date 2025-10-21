@@ -122,8 +122,6 @@ nav {
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
   ),
-  url('../files/forest.jpg');
-  no-repeat fixed 0px 0px / cover;
-  background-size: cover;
-  background-position: center;
+  url('../files/forest.jpg') no-repeat fixed center / cover;
+  padding: 40px;
 }
